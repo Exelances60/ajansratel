@@ -1,0 +1,151 @@
+{
+  "siteInfo": {
+    "name": "Ratel Ajans",
+    "url": "https://ratelajans.com/",
+    "tagline": "Cesur, Sıra dışı, Güçlü",
+    "description": "Alışıla gelmişin dışına çıkmak cesaret ister. Sen buna hazır mısın?"
+  },
+  "navigation": {
+    "menuItems": [
+      "Biz Kimiz",
+      "Neler Yapıyoruz", 
+      "Referanslar",
+      "İletişim"
+    ]
+  },
+  "heroSection": {
+    "mainHeading": "Cesur, Sıra dışı, Güçlü",
+    "subHeading": "Alışıla gelmişin dışına çıkmak cesaret ister. Sen buna hazır mısın?",
+    "ctaButton": "DAHA FAZLASI",
+    "secondaryCTA": "İLETİŞİM"
+  },
+  "services": {
+    "kreatif": {
+      "title": "Kreatif",
+      "description": "Yaratıcı ve sıra dışı fikirlerimizle internet sitenizi, kurumsal kimliğinizi ve her türlü grafik tasarım ihtiyacınızı en güçlü şekilde oluşturuyoruz.",
+      "cta": "Detayları İnceleyin"
+    },
+    "sosyalMedya": {
+      "title": "Sosyal Medya",
+      "description": "Günümüzde görünen yüzünüz olan sosyal medya hesaplarınızı markanızı doğru yansıtacak şekilde oluşturuyor ve yönetiyoruz. Hedef kitlenize yönelik yaptığımız analizlerle kampanyalar üreterek sosyal medya yönetiminizi ene uygun şekilde yapıyoruz.",
+      "cta": "Detayları İnceleyin"
+    },
+    "sahayaIniyoruz": {
+      "title": "Sahaya İniyoruz",
+      "description": "Artık insanlar tercih ettikleri markaların sadece ürünlerini değil, yaptıklarını da görmek istiyor. Sosyal sorumluluk projeleri, konferans, seminer, eğitim vb. tüm programlarınızı talepleriniz doğrultusunda A'dan Z'ye planlıyor ve gerçekleştiriyoruz.",
+      "cta": "İletişime Geç"
+    }
+  },
+  "process": {
+    "title": "Fark Yaratmanın en kolay yolu",
+    "steps": [
+      {
+        "number": 1,
+        "title": "İletişime Geç!",
+        "description": "Birlikte çalışmamız için önce tanışmamız lazım.",
+        "cta": "İletişim Geç"
+      },
+      {
+        "number": 2,
+        "title": "Hedef Belirleyelim!",
+        "description": "Tanıştıktan sonra bize neler istediğinden bahset ve bir hedef belirleyelim.",
+        "cta": "İletişim Geç"
+      },
+      {
+        "number": 3,
+        "title": "Harekete Geçelim!",
+        "description": "Hedefe doğru sıra dışı ve yaratıcı fikirlerle ilerleyelim.",
+        "cta": "Neler Yapıyoruz"
+      },
+      {
+        "number": 4,
+        "title": "Ve Kazanmaya Başla!",
+        "description": "Taleplerin doğrultusunda en uygun ve yaratıcı fikirlerle sonuca ulaşalım.",
+        "cta": "Neler Yapıyoruz"
+      }
+    ]
+  },
+  "aboutUs": {
+    "title": "Biz Kimiz",
+    "companyName": "Ratel Ajans",
+    "mainHeading": "En Korkusuz, En Cesur Ajans",
+    "description": "Her biri kendi alanında uzman ekibimizle hizmet verdiğimiz firmalar için en uygun, en güçlü sosyal medya stratejilerini belirliyor ve markalarımızı en cesur şekilde hedef kitleye ulaştırıyoruz.",
+    "additionalInfo": "Markalarımızı dijital alanda hedef kitleleriyle en doğru şekilde buluşturacak platformlar, ürünler ve kampanyaları, güncel trendler ve tasarım yaklaşımlarını kullanarak sıra dışı fikirlerle oluşturuyoruz.",
+    "cta": "Biz Kimiz?"
+  },
+  "companyDescription": {
+    "title": "Ratel Ajans",
+    "heading": "Biz dijital dünyanın delisiyiz.",
+    "description": "Kurumsal kimliğinize en uygun şekilde dijital ortamda var olmanız kadar, potansiyel hedef kitleniz tarafından da fark edilir ve ulaşılabilir olmanızı amaç edinen Ratel Ajans, dijital iletişim ve pazarlamaya yönelik verdiği hizmetlerle markanıza değer katar.",
+    "uniqueSellingPoint": "Bal Porsukları gibi hiçbir zaman sizi yarı yolda bırakmayız, sıra dışı işlere imza atarak, gücünüze güç katarız."
+  },
+  "servicesList": {
+    "title": "Hizmetler",
+    "subtitle": "Neler yapıyoruz?",
+    "cta": "Detayları İnceleyin",
+    "services": [
+      "Reklam Yönetimi",
+      "Kurumsal Kimlik Çalışması ve İtibar Yönetimi",
+      "Sosyal Medya Danışmanlığı ve Yönetimi",
+      "Grafik Tasarım",
+      "Web Sitesi"
+    ]
+  },
+  "contactForm": {
+    "fields": [
+      {
+        "name": "fullName",
+        "label": "Adınız - Soyadınız",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "E-Posta Adresiniz",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": "Telefon Numaranız",
+        "required": true
+      },
+      {
+        "name": "service",
+        "label": "İhtiyacınız olan alan:",
+        "required": true,
+        "options": [
+          "Sosyal Medya Yönetimi ve Danışmanlığı",
+          "Reklam Yönetimi",
+          "Grafik Tasarım",
+          "İnternet Sitesi",
+          "SEO",
+          "Kurumsal Kimlik Çalışması",
+          "Influencer Marketing",
+          "Mobil Uygulama"
+        ]
+      },
+      {
+        "name": "message",
+        "label": "Sizin için ne yapabiliriz?",
+        "required": false
+      }
+    ],
+    "submitButton": "Gönder",
+    "loadingText": "Yükleniyor"
+  },
+  "footer": {
+    "copyright": "2025 © Tüm Hakları Saklıdır | Ratel Ajans",
+    "whatsapp": "WhatsApp"
+  },
+  "callToActions": {
+    "bunaHazirMisin": "Buna Hazır Mısın?",
+    "cesaretEt": "Cesaret Et!",
+    "iletisim": "İletişim"
+  },
+  "references": {
+    "title": "Referanslar",
+    "imageIds": [
+      2198, 2196, 2202, 2194, 2238, 2272, 2241, 2239, 2237, 2258,
+      2273, 2275, 2276, 2242, 2257, 2197, 2193, 2243, 2195
+    ]
+  }
+}
