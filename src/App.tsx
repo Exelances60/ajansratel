@@ -43,7 +43,6 @@ function App() {
             pauseBetweenAnimations={1}
           />
         </main>
-        askldlkj
       </div>
     </div>
   );
