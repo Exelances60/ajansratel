@@ -1,6 +1,7 @@
 import Header from "./components/Home/Header";
 import BackgroundLight from "./components/ui/BackgroundLight";
-import GlitchText from "./components/ui/Bits/Glitch";
+import TextPressure from "./components/ui/Bits/TextPressure";
+import TrueFocus from "./components/ui/Bits/TrueFocus";
 
 function App() {
   return (
@@ -11,15 +12,24 @@ function App() {
       {/* Sayfa düzeni */}
       <div className="relative z-10 flex min-h-screen flex-col">
         <Header />
-        <main className="flex-1 flex flex-col items-center justify-center px-4">
-          <GlitchText
-            speed={5}
-            enableShadows={true}
-            enableOnHover={false}
-            className="custom-class"
-          >
-            React Bits
-          </GlitchText>
+        <main className="flex-1 flex flex-col items-center justify-center px-4 w-full">
+          <div className="w-full h-[300px]">
+            <TextPressure
+              text="Hello!"
+              italic={true}
+              textColor="#ffffff"
+              strokeColor="#ff0000"
+              minFontSize={10}
+            />
+          </div>
+          <TrueFocus
+            sentence="True Focus"
+            manualMode={false}
+            blurAmount={5}
+            borderColor="red"
+            animationDuration={2}
+            pauseBetweenAnimations={1}
+          />
         </main>
       </div>
     </div>
