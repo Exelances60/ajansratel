@@ -9,24 +9,29 @@ function App() {
       <BackgroundLight />
       <div className="absolute inset-0 z-5 bg-gradient-to-br from-indigo-900/20 via-transparent to-purple-900/30 pointer-events-none" />
 
-      {/* Sayfa düzeni */}
+      {/* Landing Page */}
       <div className="relative z-10 flex min-h-screen flex-col">
         <Header />
-        <main className="flex-1 flex flex-col items-center justify-center px-4 w-full">
-          <div className="w-full h-[300px]">
+        <main className="flex-1 flex flex-col items-center justify-center px-4 -mt-16 w-full">
+          {/* Ana Başlık - Header ile aynı hizada */}
+          <div className=" h-full mb-8 w-[calc(100%-10rem)]">
             <TextPressure
-              text="Hello!"
-              italic={true}
+              text="AJANS RATEL"
+              italic={false}
               textColor="#ffffff"
-              strokeColor="#ff0000"
-              minFontSize={10}
+              weight={false}
+              strokeColor="#6366f1"
+              minFontSize={60}
+              strokeWidth={2}
             />
           </div>
+
+          {/* TrueFocus Alt Başlık */}
           <TrueFocus
-            sentence="True Focus"
+            sentence="Digital Innovation Agency"
             manualMode={false}
             blurAmount={5}
-            borderColor="red"
+            borderColor="#a855f7"
             animationDuration={2}
             pauseBetweenAnimations={1}
           />
